@@ -56,11 +56,13 @@
                 <button class="btn btn-primary btn-lg"> Metric </button>
             </div>
             <div class="input-grid">
-                <div>
+                <div class="input-box">
+                    <p class="input-text">Height</p> 
                     <input class="input" type="number" id="height" placeholder="Centimeters">
                 </div>
 
-                <div>
+                <div class="input-box">
+                    <p class="input-text">Weight</p>
                     <input class="input" type="number" id="weight" placeholder="Kilograms">
                 </div>
             </div>
@@ -68,9 +70,11 @@
                 <button class="btn btn-primary btn-lg" onclick="getBmiValue()">CALCULATE</button>
             </div>
 
-            <div class="output">
-                 <input class="input" type="text" id="bmi-value" placeholder="Your BMI is...">
+            <div class="output-box">
+                <input class="output" type="text" id="bmi-value" placeholder="Your BMI is...">
+                <div class="result-statement" id="result-statement"></div>
             </div>
+            
         </div>
     <?php }
 

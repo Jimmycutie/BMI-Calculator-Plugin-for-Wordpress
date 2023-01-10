@@ -6,13 +6,13 @@
 
 .main-container{
     width: 500px;
-    height: 320px;
+    height: 400px;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
     margin: 30px;
     background-color: #fff;
-    
+    display: flexbox;
 }
 
 .form-header{
@@ -25,6 +25,7 @@
     align-items: center;
     justify-content: center; 
     display: flex;
+    border-radius: 5px;
 }
 .input-grid{
     display: grid;
@@ -44,11 +45,27 @@
     padding-bottom: 10px;
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
     vertical-align: top;
-    margin-left: 22px;
+}
+.output{
+    width: 180px; 
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(170, 170, 170);
+    border-radius: 2px;
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    vertical-align: top;
+    margin-left: 72px;
+    margin-bottom: 12px;
 }
 
 .btn {
     background-image: linear-gradient(45deg, blue, purple);
+    border: 0;
 }
 
 .button{
@@ -58,9 +75,19 @@
     margin-bottom: 10px;
 }
 
-.output{
+.output-box{
     display: grid;
-    padding-left: 25%;
+    padding-left: 17%;
 
+}
+.input-box{
+    margin-left: 22px;
+}
+.input-text{
+    margin-bottom: 0;
+}
+.result-statement{
+    justify-content: center;
+    align-items: center;
 }
 
