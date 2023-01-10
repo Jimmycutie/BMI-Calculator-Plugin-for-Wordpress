@@ -6,11 +6,11 @@
  * Description: A simple BMI calculator
  */
 
- if(!defined('ABSPATH'))
- {
-    echo 'Cannot access this file.';
-    exit;
- }
+//  if(!defined('ABSPATH'))
+//  {
+//     echo 'Cannot access this file.';
+//     exit;
+//  }
  if( !function_exists('add_action'))
  {
     echo 'Cannot access this file.';
